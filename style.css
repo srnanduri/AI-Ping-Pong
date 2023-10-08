@@ -1,0 +1,17 @@
+body
+{
+    background-color: black;
+}
+
+.header {
+    background-color: rgb(161, 253, 255);
+    width: 100%;
+    color: black;
+    font-size: 45px;
+    float: left;
+}
+#warning {
+    float: right;
+    font-size: 30px;
+    color: red;
+}
