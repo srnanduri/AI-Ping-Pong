@@ -149,8 +149,8 @@ if(pcscore ==4){
     stroke("white");
     textSize(25)
     text("Game Over!",width/2,height/2);
-    text("Press the restart button to play again.",width/2,height/2+30)
-    noLoop();
+    text("Press the restart button to play again.",width/2,height/2+30);
+    //noLoop();
     pcscore = 0;
 }
    if(ball.y+ball.r > height || ball.y-ball.r <0){
